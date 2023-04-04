@@ -47,6 +47,7 @@ embedded-svc = { version = "0.27", default-features = false }
 esp-idf-hal = { version = "0.43", default-features = false }
 embassy-time-driver = { version = "0.1", optional = true, features = ["tick-hz-1_000_000"] }
 embassy-futures = "0.1"
+memchr = "2.5.0"
 
 [build-dependencies]
 embuild = "0.31.3"
